@@ -14,6 +14,7 @@ in megawatts (MW), and timestamps are stored in UTC.
 - Loaded the SE3 demand series and sorted observations by timestamp.
 - Identified 80 missing demand readings across 50,401 rows.
 - Explored the time series in a Jupyter notebook.
+- [View the SE3 electricity demand notebook](notebooks/01_explore_se3_demand.ipynb)
 
 ## Next step
 
