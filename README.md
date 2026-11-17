@@ -18,5 +18,5 @@ in megawatts (MW), and timestamps are stored in UTC.
 
 ## Next step
 
-Build a baseline forecast using demand from the same hour one week earlier,
-then evaluate it on a chronological test set.
+Build a weekly forecasting baseline using electricity demand from the
+same hour seven days earlier, and evaluate its mean absolute error (MAE).
