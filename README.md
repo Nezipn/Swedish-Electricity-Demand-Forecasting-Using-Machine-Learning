@@ -20,3 +20,17 @@ in megawatts (MW), and timestamps are stored in UTC.
 
 Build a weekly forecasting baseline using electricity demand from the
 same hour seven days earlier, and evaluate its mean absolute error (MAE).
+
+## Key findings (18 nov)
+
+This project analyzes hourly electricity demand in Sweden’s SE3 bidding
+zone using Swedish local time. The overall weekday and weekend profiles
+use all months and years available in the dataset.
+
+- **Weekday vs. weekend:** The largest difference occurs around 07:00,
+  when average weekday demand is about 2,300 MW higher than weekend demand.
+- **June vs. November:** From 14:00 to 18:00, average weekday demand fell
+  by 4.2% in June and rose by 2.8% in November. Weekend demand rose by
+  1.0% in June and 6.6% in November.
+
+The notebook includes both plots and the calculations behind these results.
