@@ -26,6 +26,7 @@ same hour seven days earlier, and evaluate its mean absolute error (MAE).
 This project analyzes hourly electricity demand in Sweden’s SE3 bidding
 zone using Swedish local time. The overall weekday and weekend profiles
 use all months and years available in the dataset.
+All hourly averages use Swedish local time (Europe/Stockholm), with UTC timestamps converted before grouping the data by hour.
 
 - **Weekday vs. weekend:** The largest difference occurs around 07:00,
   when average weekday demand is about 2,300 MW higher than weekend demand.
